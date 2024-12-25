@@ -31,12 +31,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 If you don't have a requirements.txt file, you can manually install the required dependencies with:
 
-bash
+# bash
 Copy code
 pip install streamlit PyMuPDF Pillow llama_index
 Note: You might need additional libraries based on the utilities used for PDF extraction and image processing.
 
-File Structure
+# File Structure
 The file structure for the project looks like this:
 
 graphql
@@ -55,8 +55,9 @@ Running the App
 Once all dependencies are installed, you can run the app with the following command:
 
 bash
-Copy code
+# Copy code
 streamlit run streamlit.py
+
 How to Use the App
 Upload a PDF: Click on the "Upload a PDF file" button and select a PDF from your local machine.
 Ask a Question: After uploading the PDF, enter a question about its content in the provided text input field.
@@ -66,9 +67,10 @@ Example Interaction
 Question: "What is KNN? Explain in two lines."
 Answer: "KNN (K-Nearest Neighbors) is a simple, instance-based machine learning algorithm that classifies data points based on the majority class of their nearest neighbors."
 Images: The app will display any images that are relevant to the page(s) where the answer was found.
-Troubleshooting
-Common Issues:
+
+# Troubleshooting
+# Common Issues:
 PDF Not Found: If no PDF is processed, ensure the file is uploaded correctly and is not corrupted.
 Images Not Displaying: If no images are displayed, check if images were successfully extracted from the PDF and ensure that the page_label metadata is correctly being referenced.
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
