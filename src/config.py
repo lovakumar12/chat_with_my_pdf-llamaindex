@@ -1,13 +1,13 @@
 import os
 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Loads the .env file
-api_key = os.getenv('API_KEY')
+# load_dotenv()  # Loads the .env file
+# api_key = os.getenv('API_KEY')
 
 # Set the REPLICATE API Token
-os.environ["REPLICATE_API_TOKEN"] = api_key
+os.environ["REPLICATE_API_TOKEN"] = 'r8_C6S5h4zjlVLljIS5x4VpnYir7oBeuLX2ChmFH'
 
 ## model
 load_dotenv()  # Loads the .env file
