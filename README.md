@@ -25,8 +25,7 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 ├── requirements.txt      
 └── README.md            
 
-markdown
-Copy code
+
 
 ## Installation
 
