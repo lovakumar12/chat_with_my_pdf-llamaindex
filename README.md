@@ -11,7 +11,6 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 - **Image Extraction**: Automatically extracts and associates images with relevant content in the PDF.
 
 ## Project Structure
-
 ├── data/                 # Directory for storing input data files (e.g., PDFs).
 ├── output/               # Directory for storing output files or processed data.
 ├── src/                  # Source code files.
@@ -24,6 +23,7 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 ├── app.py                # Application entry point for the overall project.
 ├── requirements.txt      # Python dependencies required for the project.
 └── README.md             # Documentation and project overview.
+
 
 
 
