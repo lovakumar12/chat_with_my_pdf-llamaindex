@@ -2,6 +2,7 @@ import re
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from IPython.display import display, Image
+#from IPython.display import display, Image
 from llama_index.core import Settings, VectorStoreIndex, SimpleDirectoryReader
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.replicate import Replicate
