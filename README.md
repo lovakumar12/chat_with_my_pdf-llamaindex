@@ -12,19 +12,19 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 
 ## Project Structure
 
-├── data/                 
-├── output/               
-├── src/                  
-│   ├── pdf_utils.py 
-│   ├── config.py         
-│   ├── query.py          
-│   └── st_display_img.py  
-├── streamlit.py
-├── testing.ipynb
-├── app.py
-├── requirements.txt  
-└── README.md
-          
+├── data/                 # Directory for storing input data files (e.g., PDFs).
+├── output/               # Directory for storing output files or processed data.
+├── src/                  # Source code files.
+│   ├── pdf_utils.py      # Utility functions for handling PDFs.
+│   ├── config.py         # Configuration file for API keys and settings.
+│   ├── query.py          # Logic for querying and processing data.
+│   └── st_display_img.py # Streamlit utility functions for displaying images.
+├── streamlit.py          # Main Streamlit app file.
+├── testing.ipynb         # Jupyter Notebook for testing and prototyping.
+├── app.py                # Application entry point for the overall project.
+├── requirements.txt      # Python dependencies required for the project.
+└── README.md             # Documentation and project overview.
+
 
 
 
