@@ -7,7 +7,14 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.replicate import Replicate
 from transformers import AutoTokenizer
 
-import output.config as config
+import src.config as config
+
+# from dotenv import load_dotenv
+# import os
+
+# load_dotenv()  # Loads the .env file
+# api_key = os.getenv('API_KEY')
+
 
 # Set up LLM and tokenizer
 Settings.llm = Replicate(

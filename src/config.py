@@ -1,7 +1,17 @@
 import os
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads the .env file
+api_key = os.getenv('API_KEY')
+
 # Set the REPLICATE API Token
-os.environ["REPLICATE_API_TOKEN"] = "r8_C6S5h4zjlVLljIS5x4VpnYir7oBeuLX2ChmFH"
+os.environ["REPLICATE_API_TOKEN"] = api_key
+
+## model
+load_dotenv()  # Loads the .env file
+model = os.getenv('model')
 
 # LLM and Tokenizer Settings
 LLAMA2_7B_CHAT_MODEL = "meta/llama-2-7b-chat:8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e"
