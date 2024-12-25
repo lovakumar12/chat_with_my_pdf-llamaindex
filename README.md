@@ -11,6 +11,7 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 - **Image Extraction**: Automatically extracts and associates images with relevant content in the PDF.
 
 ## Project Structure
+
 ├── data/                 
 ├── output/              
 ├── src/                  
