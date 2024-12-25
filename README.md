@@ -16,12 +16,14 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 ├── output/               
 ├── src/                  
 │   ├── pdf_utils.py 
-│   ├── config.py         # Contains functions for condiguring llm extraction
-│   ├── query.py          # Contains functions for creating index and querying
-│   └── st_diplay_img.py  # Contains the image display logic
-├── streamlit.py          # Main Streamlit app file
-├── requirements.txt      # List of required Python dependencies
-└── README.md             # This file
+│   ├── config.py         
+│   ├── query.py          
+│   └── st_diplay_img.py  
+├── streamlit.py
+├── testing.ipynb
+├── app.py
+├── requirements.txt      
+└── README.md            
 
 markdown
 Copy code
