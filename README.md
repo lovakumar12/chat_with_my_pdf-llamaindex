@@ -17,8 +17,8 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 │   ├── pdf_utils.py      
 │   ├── config.py         
 │   ├── query.py         
-│   └── st_display_img.py 
-        
+│   └── st_display_img.py
+├── streamlit.py        
 ├── testing.ipynb         
 ├── app.py             
 ├── requirements.txt      
