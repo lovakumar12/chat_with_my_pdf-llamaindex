@@ -12,9 +12,9 @@ This is a Streamlit-based web application that allows users to upload a PDF, ask
 
 ## Project Structure
 
-├── data/                 # Directory to store uploaded PDFs
-├── output/               # Directory for storing extracted images
-├── src/                  # Source code for utilities
+├── data/                 
+├── output/               
+├── src/                  
 │   ├── pdf_utils.py 
 │   ├── config.py         # Contains functions for condiguring llm extraction
 │   ├── query.py          # Contains functions for creating index and querying
