@@ -10,11 +10,11 @@ from transformers import AutoTokenizer
 
 import src.config as config
 
-# from dotenv import load_dotenv
-# import os
+from dotenv import load_dotenv
+import os
 
-# load_dotenv()  # Loads the .env file
-# api_key = os.getenv('API_KEY')
+load_dotenv()  # Loads the .env file
+api_key = os.getenv('API_KEY')
 
 
 # Set up LLM and tokenizer
