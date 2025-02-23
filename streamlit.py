@@ -1,9 +1,12 @@
 
 import os
 import streamlit as st
-from src.pdf_utils import extract_images_formatted
+from src.pdf_utils import extract_images_formatted 
 from src.query import create_index
 from src.st_diplay_img import display_images_for_page  # Import the updated function
+
+# Add the project root directory to PYTHONPATH
+#sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 def main():
     st.title("PDF Query Interface with Image Display")
