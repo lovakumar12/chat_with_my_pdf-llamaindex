@@ -1,3 +1,18 @@
+🔹 Features
+✅ Upload a PDF containing text, tables, and images.
+✅ Ask questions about the content of the PDF.
+✅ Get text-based answers along with relevant images from the document.
+✅ Supports structured and unstructured PDF content.
+✅ Deployed using Streamlit.
+
+🔹 Deployment
+The application is live at:
+(https://chatwithmypdf-lamaindex-jdd5u8y7sjjk28dpllh4yk.streamlit.app/) Chat with My PDF
+
+
+
+
+
 # PDF Query Interface with Image Display
 
 This is a Streamlit-based web application that allows users to upload a PDF, ask questions about its content, and view related images extracted from the PDF. The app provides an interactive interface for querying PDF documents and visualizing associated images based on the query results.
