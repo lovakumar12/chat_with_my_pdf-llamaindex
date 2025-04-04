@@ -1,16 +1,19 @@
-🔹 Features
-✅ Upload a PDF containing text, tables, and images.
-✅ Ask questions about the content of the PDF.
-✅ Get text-based answers along with relevant images from the document.
-✅ Supports structured and unstructured PDF content.
-✅ Deployed using Streamlit.
 
-🔹 Deployment
-The application is live at:
-(https://chatwithmypdf-lamaindex-jdd5u8y7sjjk28dpllh4yk.streamlit.app/) Chat with My PDF
+# PDF Q&A Chatbot
 
+## 🔹 Overview  
+This project is a **Streamlit-based chatbot** that allows users to interact with PDF documents by asking questions. It extracts relevant information from **text, tables, and images** within the PDF and provides responses in both **text and image format**.  
 
+## 🔹 Features  
+✅ Upload a PDF containing text, tables, and images.  
+✅ Ask questions about the content of the PDF.  
+✅ Get **text-based** answers along with **relevant images** from the document.  
+✅ Supports structured and unstructured PDF content.  
+✅ Deployed using **Streamlit**.  
 
+## 🔹 Deployment  
+The application is live at:  
+🔗 **[Chat with My PDF](https://chatwithmypdf-lamaindex-jdd5u8y7sjjk28dpllh4yk.streamlit.app/)**  
 
 
 # PDF Query Interface with Image Display
